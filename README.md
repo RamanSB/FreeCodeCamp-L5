@@ -7,7 +7,7 @@ This project demonstrates the following:
 Solidity files (file extension .sol) can be compiled in our JS project by using the solcjs node module.
 If we are not globally installing the solcjs module, we can invoke:
 
-<pre>yarn solcjs --abi --binary --include-path node_modules/ --base-path . -o . <SmartContract.sol></pre>
+<pre>yarn solcjs --abi --binary --include-path node_modules/ --base-path . -o . SmartContract.sol</pre>
 
 The contract we are compiling in this project is from our prior lesson - <code>SimpleStorage.sol</code>
 
